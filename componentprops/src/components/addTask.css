@@ -1,0 +1,45 @@
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 2rem;
+    line-height: 35px;
+}
+
+.add-btn{
+    background-color: rgb(98, 98, 243);
+    color: white;
+    padding: 5px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight:600;
+}
+
+input[type="text"] {
+    padding: 7px;
+}
+
+table{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    /* border: 1px solid; */
+    min-width: 50%;
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid;
+    padding: 8px;
+}
