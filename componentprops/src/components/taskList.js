@@ -2,7 +2,7 @@ import React from 'react'
 import { Table } from 'react-bootstrap'
 
 function TaskList(props) {
-    return (
+    return(
         <div>
             <Table>
                 <thead>
@@ -14,7 +14,7 @@ function TaskList(props) {
                 </thead>
                 <tbody>
                     {props.task && props.task.map((row)=>(
-                    <tr>
+                    <tr key={row.id}>
                         <td align='center'>{row.id}</td>
                         <td align='center'>{row.title}</td>
                         <td align='center'>{row.desc}</td>
