@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Arjit",
+      "last_name": "Mane",
+      "email": "sagar@gmail.com",
+      "gender": "Male",
+      "qualification": "BCOM"
+    },
+    {
+      "first_name": "Rani",
+      "last_name": "Sathye",
+      "email": "rani@gmail.com",
+      "gender": "Female",
+      "qualification": "BE",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "first_name": "Libron",
+      "last_name": "Lopes",
+      "email": "libron@gmail.com",
+      "gender": "Male",
+      "qualification": "B Tech"
+    },
+    {
+      "id": 4,
+      "first_name": "Hardika",
+      "last_name": "Chavan",
+      "email": "hardika@gmail.com",
+      "gender": "Female",
+      "qualification": "MBA"
+    },
+    {
+      "first_name": "Manmit",
+      "last_name": "Sathye",
+      "email": "manmit@gmail.com",
+      "gender": "Male",
+      "qualification": "MCA",
+      "id": 5
+    }
+  ]
+}
