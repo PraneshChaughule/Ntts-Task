@@ -13,12 +13,12 @@ function Login() {
     let loginfo = JSON.parse(localStorage.getItem('Credentials'));
 
     const history = useHistory();
-
+    
     const handleLogin = (e) => {
         e.preventDefault();
         if (loginfo.email === email && loginfo.password === password) {
             login();
-            history.push('/Home');
+            history.push('/home');
             toast.success("Logged In successfully");
         } else {
             toast.warning('Invalid Credentials');
