@@ -11,6 +11,7 @@ import Gallery from './components/Gallery';
 import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
+import ErrorBoundry from './components/ErrorBoundry';
 
 // const Home = lazy(()=>import('./components/Home'))
 // const Register = lazy(()=>import('./components/Register'))
@@ -27,7 +28,9 @@ function App() {
       <Router>
         <Suspense fallback={<div>Loading....</div>}>
         <Switch>
+          <ErrorBoundry>
           <PublicRoute exact path="/" component={Login}/>
+          </ErrorBoundry>
           <PublicRoute exact path='/register' component={Register}/>
           <PrivateRoute exact path='/Home' component={Home}/>
           <PrivateRoute exact path='/gallery' component={Gallery}/>
